@@ -1,0 +1,44 @@
+html,body, canvas {
+    width:100%; 
+    height:100%; 
+    margin:0; 
+    padding:0;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color: #00151d;
+}
+
+header {
+    height: 2em;
+    background-color: #ff9900;
+    border-bottom: 5px solid #c15b00;
+    color: #00151d;
+    font-size: 2em;
+    font-weight: bold;
+    width: 100%;
+}
+
+
+footer {
+    height: 2em;
+    background-color: #ff9900;
+    border-top: 5px solid #c15b00;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow:hidden;
+}
+
+canvas {
+    border: 1px solid #858585;
+    background-color: #00151d;
+
+}
+ 
